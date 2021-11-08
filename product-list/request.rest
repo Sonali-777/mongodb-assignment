@@ -1,0 +1,15 @@
+GET http://localhost:3000/product/getAll
+
+###
+
+POST http://localhost:3000/product/add
+Content-Type: application/json
+
+
+    
+ {
+ "productName": "Full Shirt",
+ "price": 100
+ }
+
+

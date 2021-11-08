@@ -1,0 +1,11 @@
+GET http://localhost:3000/quote/getAll 
+
+###
+
+POST http://localhost:3000/quote/add
+Content-Type: application/json
+
+{
+ "quote":"I was never afraid of failure, for I would sooner fail than not be among greatest.",
+"author":"JOHN KEATS"
+}
